@@ -19,6 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-To see more details on my education, experience, and contact information, please visit my [cv](https://egm68.github.io/cv/). Use the navigation bar to see more information on my [published works](https://egm68.github.io/publications/) and [projects](https://egm68.github.io/repositories/).
+To see more details on my education, experience, and contact information, please consult my [resume](https://egm68.github.io/cv/) or more comprehensive [CV](https://egm68.github.io/cv/). Use the navigation bar to see more information about my [published works](https://egm68.github.io/publications/) and [projects](https://egm68.github.io/repositories/).
 
 Please feel free to reach out about research collaborations. I'm also currently looking for AI, data science, and research internship opportunities for Summer 2024.
