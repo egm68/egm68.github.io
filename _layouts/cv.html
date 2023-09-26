@@ -1,7 +1,26 @@
 ---
 layout: default
 ---
+
+<div class="post">
+
+<header class="post-header">
+  <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+</header>
+
+Please see my 1-page <a href="assets/pdf/Erin_McGowan_CV_September_23.pdf">resume</a> for a general overview of my works and experience, and my <a href="assets/pdf/Erin_McGowan_CV_September_23.pdf">full CV</a> for a comprehensive description.
+
+<embed src=
+"http://egm68.github.io/assets/pdf/Erin_McGowan_CV_September_23.pdf" 
+               width="800"
+               height="500">
+
+</div>
+
+
 <!-- _layouts/cv.html -->
+<!--
 {% unless site.data.resume %}
 <div class="post">
 
@@ -116,3 +135,4 @@ layout: default
 
 </div>
 {% endunless %}
+-->

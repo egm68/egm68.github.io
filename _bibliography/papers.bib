@@ -1,84 +1,46 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@Article{s22020494,
+AUTHOR = {McGowan, Erin and Gawade, Vidita and Guo, Weihong (Grace)},
+TITLE = {A Physics-Informed Convolutional Neural Network with Custom Loss Functions for Porosity Prediction in Laser Metal Deposition},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {2},
+ARTICLE-NUMBER = {494},
+URL = {https://www.mdpi.com/1424-8220/22/2/494},
+PubMedID = {35062455},
+ISSN = {1424-8220},
+ABSTRACT = {Physics-informed machine learning is emerging through vast methodologies and in various applications. This paper discovers physics-based custom loss functions as an implementable solution to additive manufacturing (AM). Specifically, laser metal deposition (LMD) is an AM process where a laser beam melts deposited powder, and the dissolved particles fuse to produce metal components. Porosity, or small cavities that form in this printed structure, is generally considered one of the most destructive defects in metal AM. Traditionally, computer tomography scans measure porosity. While this is useful for understanding the nature of pore formation and its characteristics, purely physics-driven models lack real-time prediction ability. Meanwhile, a purely deep learning approach to porosity prediction leaves valuable physics knowledge behind. In this paper, a hybrid model that uses both empirical and simulated LMD data is created to show how various physics-informed loss functions impact the accuracy, precision, and recall of a baseline deep learning model for porosity prediction. In particular, some versions of the physics-informed model can improve the precision of the baseline deep learning-only model (albeit at the expense of overall accuracy).},
+DOI = {10.3390/s22020494},
+Note={Full text: https://www.mdpi.com/1424-8220/22/2/494},
+preview={sensors_preview.webp}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@Article{pmid37131675,
+   Author="McGowan, E.  and Sanjak, J.  and Math, E. A.  and Zhu, Q. ",
+   Title="{{I}ntegrative {R}are {D}isease {B}iomedical {P}rofile based {N}etwork {S}upporting {D}rug {R}epurposing, a case study of {G}lioblastoma}",
+   Journal="Res Sq",
+   Year="2023",
+   Month="Aug",
+   Abstract={Background. Glioblastoma (GBM) is the most aggressive and common malignant primary brain tumor; however, treatment remains a significant challenge. This study aims to identify drug repurposing candidates for GBM by developing an integrative rare disease profile network containing heterogeneous types of biomedical data. Methods. We developed a Glioblastoma-based Biomedical Profile Network (GBPN) by extracting and integrating biomedical information pertinent to GBM-related diseases from the NCATS GARD Knowledge Graph (NGKG). We further clustered the GBPN based on modularity classes which resulted in multiple focused subgraphs, named mc_GBPN. We then identified high-influence nodes by performing network analysis over the mc_GBPN and validated those nodes that could be potential drug repositioning candidates for GBM. Results. We developed the GBPN with 1,466 nodes and 107,423 edges and consequently the mc_GBPN with forty-one modularity classes. A list of the ten most influential nodes were identified from the mc_GBPN. These notably include Riluzole, stem cell therapy, cannabidiol, and VK-0214, with proven evidence for treating GBM. Conclusion. Our GBM-targeted network analysis allowed us to effectively identify potential candidates for drug repurposing. This could lead to less invasive treatments for glioblastoma while significantly reducing research costs by shortening the drug development timeline. Furthermore, this workflow can be extended to other disease areas.},
+   Note={Full text (preprint): https://pubmed.ncbi.nlm.nih.gov/37131675/},
+   preview={GBM_preview.jpeg}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@misc{castelo2023argus,
+      title={ARGUS: Visualization of AI-Assisted Task Guidance in AR}, 
+      author={Sonia Castelo and Joao Rulff and Erin McGowan and Bea Steers and Guande Wu and Shaoyu Chen and Iran Roman and Roque Lopez and Ethan Brewer and Chen Zhao and Jing Qian and Kyunghyun Cho and He He and Qi Sun and Huy Vo and Juan Bello and Michael Krone and Claudio Silva},
+      year={2023},
+      Month="Aug",
+      eprint={2308.06246},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      Abstract={The concept of augmented reality (AR) assistants has captured the human imagination for decades, becoming a staple of modern science fiction. To pursue this goal, it is necessary to develop artificial intelligence (AI)-based methods that simultaneously perceive the 3D environment, reason about physical tasks, and model the performer, all in real-time. Within this framework, a wide variety of sensors are needed to generate data across different modalities, such as audio, video, depth, speech, and time-of-flight. The required sensors are typically part of the AR headset, providing performer sensing and interaction through visual, audio, and haptic feedback. AI assistants not only record the performer as they perform activities, but also require machine learning (ML) models to understand and assist the performer as they interact with the physical world. Therefore, developing such assistants is a challenging task. We propose ARGUS, a visual analytics system to support the development of intelligent AR assistants. Our system was designed as part of a multi year-long collaboration between visualization researchers and ML and AR experts. This co-design process has led to advances in the visualization of ML in AR. Our system allows for online visualization of object, action, and step detection as well as offline analysis of previously recorded AR sessions. It visualizes not only the multimodal sensor data streams but also the output of the ML models. This allows developers to gain insights into the performer activities as well as the ML models, helping them troubleshoot, improve, and fine tune the components of the AR assistant.},
+      Note={Full text (preprint): https://arxiv.org/abs/2308.06246},
+      preview={teaser_v2.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}

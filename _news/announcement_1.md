@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-08-22 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+"ARGUS: Visualization of AI-assisted Task Guidance in AR" was awarded a Best Paper Honorable Mention at [IEEE VIS 2023](https://ieeevis.org/year/2023/info/awards/best-paper-awards). Read the preprint [here](https://arxiv.org/abs/2308.06246). 

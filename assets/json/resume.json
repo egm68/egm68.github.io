@@ -1,76 +1,128 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Erin McGowan",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "erin [dot] mcgowan [at] nyu [dot] edu",
+    "url": "https://egm68.github.io/base/",
+    "summary": "Computer Science Ph.D. student at New York University with experience in data visualization, augmented reality, artificial intelligence, and machine learning.",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "egm68",
+        "url": "https://github.com/egm68"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "erinmcgowan",
+        "url": "https://www.linkedin.com/in/erinmcgowan"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Perceptually-enabled Task Guidance, VIDA Center, New York University",
+      "position": "PhD Researcher",
+      "startDate": "2022-09",
+      "endDate": "Present",
       "highlights": [
-        "Relativity"
+        "Worked with a team to develop <a href='https://github.com/VIDA-NYU/ARGUS'>ARGUS</a>, a visual analytics system for multimodal sensor data used by researchers on the <a href='https://www.darpa.mil/program/perceptually-enabled-task-guidance'>DARPA Perceptually-enabled Task Guidance project</a> who seek to build an augmented reality (AR) assistant, using  D3.js, JavaScript, and Python",
+        "Wrote paper as joint first author titled <a href='https://arxiv.org/abs/2308.06246'>'ARGUS: Visualization of AI-Assisted Task Guidance in AR'</a> which earned a <a href='https://ieeevis.org/year/2023/info/awards/best-paper-awards'>Best Paper Honorable Mention</a> at IEEE Transactions on Visualization and Computer Graphics (VIS) 2023",
+        "Developed <a href='https://github.com/egm68/ARPOV'>ARPOV</a>, a tool for creating and analyzing panoramic mosaic-based visualizations of object detection outputs tailored to AR applications, using OpenCV.js, WebGL, Javascript, and Three.js"
+        ]
+    },
+    {
+      "name": "National Center for Advancing Translational Sciences",
+      "position": "Data Science Civic Digital Fellow (Intern)",
+      "startDate": "2022-06",
+      "endDate": "2022-09",
+      "highlights": [
+        "Developed a Glioblastoma-based Biomedical Profile Network (GBPN) of data relevant to brain tumors using Neo4j, Cypher, and Python",
+        "Identified existing drugs that could be repurposed to treat glioblastoma by performing network analysis on the GBPN using Gephi",
+        "Presented findings at the National Institutes of Health (NIH) and National Center for Advancing Translational Sciences (NCATS) summer poster days",
+        "Wrote a paper as first author titled 'Integrative Rare Disease Biomedical Profile-based Network Supporting Drug Repurposing, A Case Study of Glioblastoma' (accepted to Orphanet Journal of Rare Diseases August 2023, read preprint <a href='https://pubmed.ncbi.nlm.nih.gov/37131675/'>here</a>)"
       ]
+    },
+    {
+      "name": "Cognitive and Data Science (CoDaS) Lab, Rutgers University - Newark",
+      "position": "Research Assistant",
+      "startDate": "2021-02",
+      "endDate": "2022-05",
+      "highlights": [
+        "Worked with a team to develop a platform for conducting Theory of Mind (ToM) experiments via single and multiplayer games using Python, JavaScript, Heroku, Firebase, Redis, Socket.IO, FastAPI, and Git as part of the <a href='https://www.darpa.mil/program/artificial-social-intelligence-for-successful-teams'>DARPA ASIST project</a>",
+        "Wrote Python script to preprocess JSON files from Firebase database using NumPy and Pandas"
+        ]
+    },
+    {
+      "name": "Research Experience for Undergraduates (REU) Program, Center for Discrete Mathematics and Theoretical Computer Science (DIMACS), Rutgers University - New Brunswick",
+      "position": "Research Assistant",
+      "startDate": "2021-05",
+      "endDate": "2022-01",
+      "highlights": [
+        "Created a physics-driven convolutional neural network that predicts the porosity (a defect) of objects created via laser metal deposition (3D-printed metals) using Python, Keras, Scikit-learn, NumPy, Pandas, MATLAB, and Google Colab during the 2021 DIMACS REU Program (and continued to work with faculty mentor after duration of the REU program)",
+        "Investigated the impact of incorporating physics-informed constraints into the CNN architecture itself via custom loss functions",
+        "Published a paper as first author in Sensors journal titled 'A Physics-Informed Convolutional Neural Network with Custom Loss Functions for Porosity Prediction in Laser Metal Deposition' (read <a href='https://www.mdpi.com/1424-8220/22/2/494'>here</a>)",
+        "Presented findings to REU administration, faculty mentors, and peers (presentation slides, research log, and further details found <a href='https://reu.dimacs.rutgers.edu/~egm68'>here</a>)"
+        ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "New York University Tandon School of Engineering",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "startDate": "2022-09",
+      "endDate": "2027-05",
+      "score": "3.78/4.0",
       "courses": [
-        "Theory of Relativity"
+        "Visualization for Machine Learning, Machine Learning", 
+        "Information Visualization", 
+        "Computer Graphics", 
+        "Big Data", 
+        "Design & Analysis of Algorithms I & II"
+      ]
+    },
+    {
+      "institution": "Rutgers University - New Brunswick",
+      "area": "Mathematics, minors in Computer Science & Comparative Literature",
+      "studyType": "BA",
+      "startDate": "2018-09",
+      "endDate": "2022-05",
+      "score": "3.79/4.0",
+      "courses": [
+        "Introduction to Artificial Intelligence", 
+        "Brain-Inspired Computing", 
+        "Principles of Information and Data Management (SQL)", 
+        "Introduction to Data Structures and Algorithms (Java)", 
+        "Introduction to Computer Science (Java)", 
+        "Introduction to Mathematical Reasoning (Discrete Structures I equivalent)", 
+        "Mathematical Theory of Probability (Discrete Structures II equivalent)", 
+        "Linear Optimization", 
+        "Introduction to Linear Algebra (MATLAB)", 
+        "Linear Algebra", 
+        "Abstract Algebra I", 
+        "Cryptography", 
+        "Graph Theory", 
+        "Introduction to Real Analysis", 
+        "Elementary Differential Equations", 
+        "Multivariable Calculus", 
+        "Introduction to Cognitive Science", 
+        "Basic Statistics for Research"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Future Leader Fellowship",
+      "date": "2022-08 - 2024-08",
+      "awarder": "New York University Tandon School of Engineering",
+      "summary": "Most competitive (highest level) of Ph.D. full-funding at NYU Tandon."
     }
   ],
   "certificates": [],
   "publications": [],
   "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
+  "languages": [],
   "interests": [],
   "references": [],
   "projects": []

@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - egm68
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - VIDA-NYU/ARGUS
+  - egm68/panoramic-mosaics
+  - egm68/dataset-visualization
+  - egm68/AIDA
+  - egm68/ML-Final_Project
+  - egm68/Shoprite-Saver-Search-HackHers-2020
