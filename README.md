@@ -6,5 +6,3 @@ I am currently a member of the Visualization, Imaging, and Data Analysis Center 
 To see more details about my education, experience, and contact information, please consult my resume or more comprehensive CV. Use the navigation bar to see more information about my published works and projects.
 
 Please feel free to reach out about research collaborations. I’m also currently looking for AI, data science, and research internship opportunities for Summer 2024.
-
-Layout based on https://github.com/alshedivat/al-folio
