@@ -1,5 +1,4 @@
-Erin McGowan
-Computer Science Ph.D. student, New York University
+Erin McGowan Computer Science Ph.D. student, New York University
 
 I am currently a member of the Visualization, Imaging, and Data Analysis Center advised by Claudio Silva. My research is focused on data visualization and augmented reality, particularly within the context of the DARPA Perceptually-enabled Task Guidance project. I have prior experience in machine learning, artificial intelligence, and bioinformatics.
 
