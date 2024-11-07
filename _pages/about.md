@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science Ph.D. student, New York University
+subtitle: Computer Science Ph.D. Candidate, New York University
 
 profile:
   align: right
